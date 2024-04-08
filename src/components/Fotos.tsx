@@ -9,6 +9,8 @@ return (
   <div className="flex w-full flex-col">
       <img src={foto}  alt="foto_gats" className="w-full max-h-full object-cover" />
       <p className="lobster text-xl">{peu}</p>
+      
+
   </div>
 )
 }
