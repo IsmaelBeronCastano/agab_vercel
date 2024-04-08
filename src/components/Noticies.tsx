@@ -6,7 +6,7 @@ import gabia3 from '../assets/noticies/gabia_3.jpg';
 
 const Noticies = () => {
 return (
-    <div className="container w-[90%] h-full flex justify-center bg-gray-300 pt-4 pb-4">
+    <div className="container w-[90%] h-full flex justify-center bg-gray-300 pt-4 pb-4 rounde-md">
             <Noticia titol="El vent ens ha fet malbé la gatera" noticia={ `Les desgràcies mai venen soles...
             
             En època de cadells/es, sense pinso i amb deutes, un temporal ens ha destrossat la gatera. 
