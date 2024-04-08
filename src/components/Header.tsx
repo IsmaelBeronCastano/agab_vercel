@@ -7,7 +7,7 @@ const Header = () => {
             <img src={Image} id="agab" alt="Agab" className="w-20 h-full" />
         </div>
         <div className="flex flex-col align-center">
-          <h1 className="text-white font-bold text-7xl mx-auto alfa-slab pt-2 pl-16">A.G.A.B.</h1>
+          <h1 className="text-white font-bold text-7xl mx-auto alfa-slab pt-2">A.G.A.B.</h1>
           <p className="text-black font-bold text-xl lobster mx-auto pt-2 pb-3">Amics dels Gats i d'altres Animals de Balenyà</p>
         </div>
         <div className="flex flex-col  flex-start items-center pr-8">
