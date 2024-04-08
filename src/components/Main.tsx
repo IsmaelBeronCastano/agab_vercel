@@ -45,16 +45,18 @@ const Main = () => {
           className= "text-2xl text-center mx-auto amatic-bold decoration-transparent hover:text-4xl hover:text-purple-800 cursor-pointer">Vull fer-me teamer</a>
           
         </div>
-        <p className="text-2xl text-center amatic-bold">Si vols fer una donació PUNTUAL O MENSUAL pots fer-ho a NOM D' <span className="text-purple-600 alfa-slab text-xl">A.G.A.B.</span> a través de 
+        <p className="text-2xl text-center amatic-bold mb-4">Si vols fer una donació PUNTUAL O MENSUAL pots fer-ho a NOM D' <span className="text-purple-600 alfa-slab text-xl">A.G.A.B.</span> a través de 
         <span className="text-purple-600 alfa-slab text-xl"> BIZZUM</span> o <span className="text-purple-600 alfa-slab text-xl">TRANSFERÈNCIA BANCÀRIA</span></p>
-        <div className="flex-col pt-4">
-         <p className="text-4xl text-center amatic-bold pt-4 pb-4"><span className="text-center border-2 border-black rounded-md bg-purple-300 mt-3 p-1">BIZZUM</span> <span className="lora text-4xl"> 689969006</span></p> 
-          <p className="text-4xl text-center amatic-bold"><span className="text-center border-2 border-black rounded-md bg-purple-300 mb-3 p-1">IBAN</span><span className="lora text-4xl"> ES29 0182 9746 7002 0008 3106</span> </p>
+        <div className="flex-col text-center">
+         <p className="text-4xl  amatic-bold pt-4 pb-4"><span className="text-center border-2 border-black rounded-md bg-purple-300 mt-3 p-1">BIZZUM</span></p> 
+         <p className="text-4xl  amatic-bold pt-4 pb-8"><span className="lora text-4xl"> 689969006</span></p> 
+          <p className="text-4xl amatic-bold pb-4"><span className="text-center border-2 border-black rounded-md bg-purple-300 mt-3 p-1">IBAN</span></p>
+          <p className="text-4xl amatic-bold pt-4 pb-4"><span className="lora text-4xl">ES29 0182 9746 7002 0008 3106</span> </p>
         </div>
         <p className="text-2xl text-center amatic-bold mt-4"><span className="text-purple-600 alfa-slab text-xl">FES-TE SOCI!!</span></p>
-        <p className="text-2xl text-center amatic-bold">Escull la frequència i la quota que millor et vagi, envians un correu per gestionar-ho!</p>
+        <p className="text-2xl text-center amatic-bold mt-4">Escull la frequència i la quota que millor et vagi, envians un correu per gestionar-ho!</p>
         <p className= "sm:w-full md:w-2/4 md:mx-auto text-2xl text-center indie-flower border-8 border-purple-800 rounded-xl mt-4 mb-4">agabanimals@gmail.com</p>
-        <p className="sm:w-full md:w-2/4 md:mx-auto text-center border-2 text-3xl border-black rounded-md bg-purple-300 mt-3 mb-3 p-1 lobster">Recorda que les donacions desgraven a la declaració d'Hisenda</p>
+        <p className="sm:w-full md:w-2/4 md:mx-auto text-center border-2 text-3xl border-black rounded-md bg-purple-300 mt-8 mb-3 p-1 lobster">Recorda que les donacions desgraven a la declaració d'Hisenda</p>
         <p className="text-purple-600 alfa-slab text-6xl text-center mt-10 mb-10">XARXES</p>
         <Xarxes />
       </section>
