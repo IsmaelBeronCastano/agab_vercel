@@ -2,9 +2,9 @@ import Image from '../assets/agabGIMP.jpg'
 
 const Header = () => {
   return (
-    <div className="w-full flex flex-col sm:flex-col lg:flex-row lg:pl-20 items-center md:justify-between lg:w-full lg:justify-evenly h-25 pt-2 bg-purple-800">
+    <div className="w-full flex flex-col sm:flex-col lg:flex-row lg:pl-20 items-center md:justify-between lg:w-full lg:justify-between h-25 pt-2 bg-purple-800">
         <div className="flex items-center">
-            <img src={Image} id="agab" alt="Agab" className="w-20 h-full pl-1" />
+            <img src={Image} id="agab" alt="Agab" className="w-24 h-full pl-1" />
         </div>
         <div className="flex flex-col align-center">
           <h1 className="text-white font-bold text-7xl mx-auto alfa-slab pt-2">A.G.A.B.</h1>
