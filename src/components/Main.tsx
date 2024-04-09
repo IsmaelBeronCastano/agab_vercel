@@ -15,10 +15,10 @@ const Main = () => {
     <div className="container w-full h-full flex-row">
       <h2 className="text-4xl amatic-bold pt-4 mb-10 lg:pr-20 pl-2 text-center">Controlem colònies del carrer i mètode CER </h2>
       <h3 className="text-2xl w-5/6 md:w-2/4 rounded-lg p-3 alfa-slab text-center mx-auto bg-purple-600 text-white mb-8">NOTICIES</h3>
-      <section className="w-full h-full flex justify-center">
+      <section className="w-full h-full flex justify-center mb-8">
         <Noticies />
       </section>
-      <h3 className="text-2xl w-5/6 md:w-2/4 rounded-lg p-3 alfa-slab mt-4 text-center mx-auto bg-purple-600 text-black mb-8">GATS EN ADOPCIÓ</h3>
+      <h3 className="text-2xl w-5/6 md:w-2/4 rounded-lg p-3 alfa-slab text-center mx-auto bg-purple-600 text-black mb-8">GATS EN ADOPCIÓ</h3>
       <section className="w-full h-full md:flex md:flex-wrap justify-center">
         <Card  foto={gat1} nom="Blacky" color="bg-pink-300" descripcio={`
         Gat@ en adopció responsable.
