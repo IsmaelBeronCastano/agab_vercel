@@ -55,7 +55,8 @@ const Main = () => {
         </div>
         <p className="text-2xl text-center amatic-bold mt-4"><span className="text-purple-600 alfa-slab text-xl">FES-TE SOCI!!</span></p>
         <p className="text-2xl text-center amatic-bold mt-4">Escull la frequència i la quota que millor et vagi, envians un correu per gestionar-ho!</p>
-        <p className= "sm:w-full md:w-2/4 md:mx-auto text-2xl text-center indie-flower border-8 border-purple-800 rounded-xl mt-4 mb-4">agabanimals@gmail.com</p>
+        <div className= "sm:w-full md:w-2/4 md:mx-auto text-2xl text-center indie-flower border-8 border-purple-800 rounded-xl mt-4 mb-4">
+          <a href="mailto:agabanimals@gmail.com">agabanimals@gmail.com</a></div>
         <p className="sm:w-full md:w-2/4 md:mx-auto text-center border-2 text-3xl border-black rounded-md bg-purple-300 mt-8 mb-3 p-1 lobster">Recorda que les donacions desgraven a la declaració d'Hisenda</p>
         <p className="text-purple-600 alfa-slab text-6xl text-center mt-10 mb-10">XARXES</p>
         <Xarxes />
