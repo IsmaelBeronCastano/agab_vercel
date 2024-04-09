@@ -21,7 +21,7 @@ const Card = ({foto, nom, descripcio, color="bg-purple-600"}:Props) => {
                 </div>
                 <div className='flex-col'>
                     <p className="text-center flex-wrap whitespace-pre-line indie-flower">{descripcio}</p>
-                    <p className="alfa-slab text-md mt-2 flex-wrap text-center bg-purple-300 rounded-md">Les adopcions van amb contracte i seguiment</p>
+                    <p className="alfa-slab text-md mt-2 flex-wrap text-center">Les adopcions van amb contracte i seguiment</p>
                 </div>
             </div>
         </div>
