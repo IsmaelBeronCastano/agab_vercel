@@ -20,38 +20,38 @@ const Main = () => {
       </section>
       <h3 className="text-2xl sm:w-5/6 md:1/4 rounded-lg p-3 alfa-slab mt-4 text-center mx-auto bg-purple-600 text-black mb-8">GATS EN ADOPCIÓ</h3>
       <section className="w-full h-full md:flex md:flex-wrap justify-center gap-3">
-        <Card  foto={gat1} nom="Blacky" descripcio={`
+        <Card  foto={gat1} nom="Blacky" color="bg-pink-300" descripcio={`
         Gat@ en adopció responsable.
         S'entreguen desparasitats, vacunats, i esterilitzats/des.
         Es fa contracte de seguiment i seguiment.
         Recordeu posar protecció a les finestres!!
         `} />
-        <Card  foto={gat2} nom="Tigretó" descripcio={`
+        <Card  foto={gat2} nom="Tigretó" color="bg-purple-300" descripcio={`
         Gat@ en adopció responsable.
         S'entreguen desparasitats, vacunats, i esterilitzats/des.
         Es fa contracte de seguiment i seguiment.
         Recordeu posar protecció a les finestres!!
         `} />
-        <Card  foto={gat3} nom="Melissa" descripcio={`
+        <Card  foto={gat3} nom="Melissa" color="bg-orange-300" descripcio={`
         Gat@ en adopció responsable.
         S'entreguen desparasitats, vacunats, i esterilitzats/des.
         Es fa contracte de seguiment i seguiment.
         Recordeu posar protecció a les finestres!!
         `} />
        
-        <Card  foto={gat5} nom="Fèlix" descripcio={`
+        <Card  foto={gat5} nom="Fèlix" color="bg-indigo-300" descripcio={`
         Gat@ en adopció responsable.
         S'entreguen desparasitats, vacunats, i esterilitzats/des.
         Es fa contracte de seguiment i seguiment.
         Recordeu posar protecció a les finestres!!
         `} />
-        <Card  foto={gat6} nom="Cinthia" descripcio={`
+        <Card  foto={gat6} nom="Cinthia" color="bg-amber-300" descripcio={`
         Gat@ en adopció responsable.
         S'entreguen desparasitats, vacunats, i esterilitzats/des.
         Es fa contracte de seguiment i seguiment.
         Recordeu posar protecció a les finestres!!
         `} />
-        <Card  foto={gat7} nom="Núvol" descripcio={`
+        <Card  foto={gat7} nom="Núvol" color="bg-blue-300" descripcio={`
         Gat@ en adopció responsable.
         S'entreguen desparasitats, vacunats, i esterilitzats/des.
         Es fa contracte de seguiment i seguiment.
@@ -78,10 +78,10 @@ const Main = () => {
         </div>
         <p className="text-2xl text-center amatic-bold mt-4"><span className="text-purple-600 alfa-slab text-xl">FES-TE SOCI!!</span></p>
         <p className="text-2xl text-center amatic-bold mt-4">Escull la frequència i la quota que millor et vagi, envians un correu per gestionar-ho!</p>
-        <div className= "flex-wrap sm:w-full md:w-2/4 md:mx-auto text-xl text-center indie-flower border-8 border-purple-800 rounded-xl mt-4 mb-4">
+        <div className= "flex-wrap sm:w-full md:w-2/4 md:mx-auto text-2xl text-center indie-flower mt-4 mb-4">
           <a href="mailto:agabanimals@gmail.com">agabanimals@gmail.com</a></div>
         <p className="sm:w-full md:w-2/4 md:mx-auto text-center border-2 text-3xl border-black rounded-md bg-purple-300 mt-8 mb-3 p-1 lobster">Recorda que les donacions desgraven a la declaració d'Hisenda</p>
-        <p className="text-purple-600 alfa-slab text-6xl text-center mt-10 mb-10">XARXES</p>
+        <p className="text-black alfa-slab text-6xl text-center mt-10 mb-10">XARXES</p>
         <Xarxes />
       </section>
     </div>

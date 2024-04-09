@@ -4,11 +4,12 @@ interface Props{
     foto: string
     nom: string
     descripcio: string
+    color?: string
 }
 
-const Card = ({foto, nom, descripcio}:Props) => {
+const Card = ({foto, nom, descripcio, color="bg-purple-600"}:Props) => {
     return (
-        <div className="bg-purple-500 p-4 rounded-lg sm:w-full md:w-3/6 md:items-center mt-4">
+        <div className={`${color} p-4 rounded-lg sm:w-full md:w-3/6 md:items-center mt-4`}>
             <div className="flex justify-center">
                 <img src={foto} alt="Imagen" className="w-full object-cover" />
             </div>
