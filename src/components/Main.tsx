@@ -1,6 +1,11 @@
 import Card from "./Card"
 import Noticies from "./Noticies"
-import blanquet from '../assets/blanquet_ferit.jpg'
+import gat1 from '../assets/adopcio/gat_1.jpg'
+import gat2 from '../assets/adopcio/gat_2.jpg'
+import gat3 from '../assets/adopcio/gat_3.jpg'
+import gat5 from '../assets/adopcio/gat_5.jpg'
+import gat6 from '../assets/adopcio/gat_6.jpg'
+import gat7 from '../assets/adopcio/gat_7.jpg'
 import Xarxes from "./Xarxes"
 
 
@@ -15,26 +20,44 @@ const Main = () => {
       </section>
       <h3 className="text-2xl sm:w-5/6 md:1/4 rounded-lg p-3 alfa-slab mt-4 text-center mx-auto bg-purple-600 text-black mb-8">GATS EN ADOPCIÓ</h3>
       <section className="w-full h-full md:flex justify-center gap-3">
-        <Card  foto={blanquet} nom="Blanquet" descripcio={`
-        El blanquet es molt carinyós.
-        Fa temps que es amb nosaltres.
-        Busca una familia que l'estimi
+        <Card  foto={gat1} nom="Blacky" descripcio={`
+        Gat@ en adopció responsable.
+        S'entreguen desparasitats, vacunats, i esterilitzats/des.
+        Es fa contracte de seguiment i seguiment.
+        Recordeu posar protecció a les finestres!!
         `} />
-        <Card  foto={blanquet} nom="Blanquet" descripcio={`
-        El blanquet es molt carinyós.
-        Fa temps que es amb nosaltres.
-        Busca una familia que l'estimi
+        <Card  foto={gat2} nom="Tigretó" descripcio={`
+        Gat@ en adopció responsable.
+        S'entreguen desparasitats, vacunats, i esterilitzats/des.
+        Es fa contracte de seguiment i seguiment.
+        Recordeu posar protecció a les finestres!!
         `} />
-        <Card  foto={blanquet} nom="Blanquet" descripcio={`
-        El blanquet es molt carinyós.
-        Fa temps que es amb nosaltres.
-        Busca una familia que l'estimi
+        <Card  foto={gat3} nom="Melissa" descripcio={`
+        Gat@ en adopció responsable.
+        S'entreguen desparasitats, vacunats, i esterilitzats/des.
+        Es fa contracte de seguiment i seguiment.
+        Recordeu posar protecció a les finestres!!
         `} />
-        <Card  foto={blanquet} nom="Blanquet" descripcio={`
-        El blanquet es molt carinyós.
-        Fa temps que es amb nosaltres.
-        Busca una familia que l'estimi
+       
+        <Card  foto={gat5} nom="Fèlix" descripcio={`
+        Gat@ en adopció responsable.
+        S'entreguen desparasitats, vacunats, i esterilitzats/des.
+        Es fa contracte de seguiment i seguiment.
+        Recordeu posar protecció a les finestres!!
         `} />
+        <Card  foto={gat6} nom="Cinthia" descripcio={`
+        Gat@ en adopció responsable.
+        S'entreguen desparasitats, vacunats, i esterilitzats/des.
+        Es fa contracte de seguiment i seguiment.
+        Recordeu posar protecció a les finestres!!
+        `} />
+        <Card  foto={gat7} nom="Núvol" descripcio={`
+        Gat@ en adopció responsable.
+        S'entreguen desparasitats, vacunats, i esterilitzats/des.
+        Es fa contracte de seguiment i seguiment.
+        Recordeu posar protecció a les finestres!!
+        `} />
+
       
       </section>
       <h3 className="text-2xl sm:w-5/6 md:1/4 rounded-lg p-3 alfa-slab mt-4 text-center mx-auto bg-purple-600 text-black mb-8">DONACIONS</h3>
