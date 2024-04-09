@@ -62,10 +62,10 @@ const Main = () => {
       </section>
       <h3 className="text-2xl sm:w-5/6 md:1/4 rounded-lg p-3 alfa-slab mt-4 text-center mx-auto bg-purple-600 text-black mb-8">DONACIONS</h3>
       <section>
-        <p className="text-2xl text-center amatic-bold"><span className="text-purple-600 alfa-slab text-xl">Fes-te TEAMER per 1 euro al mes!!</span></p>
+        <p className="text-2xl text-center amatic-bold"><span className="text-purple-600 alfa-slab text-4xl">Fes-te TEAMER per 1 euro al mes!!</span></p>
         <div className="sm:w-full md:w-2/4 md:mx-auto text-center border-2 border-black rounded-md bg-purple-300 mt-3 mb-3">
           <a href="https://www.teaming.net/veronicagomez-martinez" 
-          className= "text-2xl text-center mx-auto amatic-bold decoration-transparent hover:text-4xl hover:text-purple-800 cursor-pointer">Vull fer-me teamer</a>
+          className= "text-4xl text-center mx-auto amatic-bold decoration-transparent hover:text-3xl hover:text-purple-800 cursor-pointer">Vull fer-me teamer</a>
           
         </div>
         <p className="text-2xl text-center amatic-bold mb-4">Si vols fer una donació PUNTUAL O MENSUAL pots fer-ho a NOM D' <span className="text-purple-600 alfa-slab text-xl">A.G.A.B.</span> a través de 

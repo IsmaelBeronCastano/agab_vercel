@@ -10,7 +10,7 @@ const Noticia = ({titol, noticia, foto1, foto2,foto3}: Props) => {
     
 return (
     <div className="bg-purple-200 h-[full] w-[80%] rounded-md flex flex-col align-center">
-            <h3 className="text-2xl text-center mx-auto amatic-bold bg-purple-400 w-[80%] text-align rounded-lg mt-3">{titol}</h3>
+            <h3 className="text-3xl text-center mx-auto amatic-bold bg-purple-400 w-[80%] text-align rounded-lg mt-3">{titol}</h3>
             <div className="flex w-full justify-center">
                 <p className="lora text-lg text-left p-3 whitespace-pre-line">{noticia}</p>
             </div>

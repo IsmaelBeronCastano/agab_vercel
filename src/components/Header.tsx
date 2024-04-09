@@ -2,7 +2,7 @@ import Image from '../assets/agabGIMP.jpg'
 
 const Header = () => {
   return (
-    <div className="w-full flex flex-col sm:flex-col lg:flex-row items-center md:justify-between lg:w-full lg:justify-evenly h-25 pt-2 bg-purple-800">
+    <div className="w-full flex flex-col sm:flex-col lg:flex-row lg:pl-20 items-center md:justify-between lg:w-full lg:justify-evenly h-25 pt-2 bg-purple-800">
         <div className="flex items-center">
             <img src={Image} id="agab" alt="Agab" className="w-20 h-full pl-1" />
         </div>
